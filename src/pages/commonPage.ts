@@ -17,6 +17,13 @@ export class CommonPage {
     }
 
 
+    async navigateViaHomePage(locator: string, expectedUrl: string) {
+        await this.page.getByTestId(locator).click()
+        await this.page.waitForURL(expectedUrl)
+        await expect(this.page).toHaveURL(expectedUrl)
+    }
+
+
 
 
 }
