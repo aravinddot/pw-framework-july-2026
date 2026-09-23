@@ -1,0 +1,15 @@
+{
+    "planned": {
+        "dropdownValue": "PLANNED",
+        "tableStatusvalue": "Planned"
+    },
+     "sown": {
+        "dropdownValue": "SOWN",
+        "tableStatusvalue": "Sown"
+    },
+     "germinating": {
+        "dropdownValue": "GERMINATING",
+        "tableStatusvalue": "Germinating"
+    }
+
+}

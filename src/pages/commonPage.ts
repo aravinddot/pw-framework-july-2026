@@ -1,11 +1,14 @@
 import { Locator, Page, expect } from "@playwright/test"
+import { ICommonPage } from "../types/interface"
+import { GenricUtils } from "../utils/genricUtils"
 
 
-export class CommonPage {
+export class CommonPage extends GenricUtils implements ICommonPage {
 
     page: Page
 
     constructor(page: Page) {
+        super(page)
         this.page = page
     }
 

@@ -30,3 +30,21 @@ export const sideBarItem = {
         expectedUrl: 'https://kovai-greens.vercel.app/harvests'
     }
 }
+
+
+
+export const tableStatus = {
+    planned: {
+        dropdownValue: 'PLANNED',
+        tableStatusvalue: 'Planned'
+    },
+     sown: {
+        dropdownValue: 'SOWN',
+        tableStatusvalue: 'Sown'
+    },
+     germinating: {
+        dropdownValue: 'GERMINATING',
+        tableStatusvalue: 'Germinating'
+    },
+
+}
